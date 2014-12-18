@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bookRow">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/bookName"
+        android:layout_alignBaseline="@+id/bookInfo"
+        android:layout_alignBottom="@+id/bookInfo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/seriesName"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/bookName"
+        android:layout_toRightOf="@+id/bookName"
+        android:layout_toEndOf="@+id/bookName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/bookInfo"
+        android:id="@+id/bookInfo"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/author"
+        android:layout_alignTop="@+id/authorInfo"
+        android:layout_toLeftOf="@+id/seriesName"
+        android:layout_toStartOf="@+id/seriesName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Author"
+        android:id="@+id/authorInfo"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/bookInfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Genre"
+        android:id="@+id/genreInfo"
+        android:layout_above="@+id/author"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/genre"
+        android:layout_alignTop="@+id/genreInfo"
+        android:layout_toLeftOf="@+id/seriesName"
+        android:layout_toStartOf="@+id/seriesName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Release"
+        android:id="@+id/releaseInfo"
+        android:layout_below="@+id/authorInfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/release"
+        android:layout_alignTop="@+id/releaseInfo"
+        android:layout_toLeftOf="@+id/seriesName"
+        android:layout_toStartOf="@+id/seriesName" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BookKeeper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="read">Read books</string>
+    <string name="reading">Now reading</string>
+    <string name="upcoming">Upcoming books</string>
+    <string name="wishlist">Wish list</string>
+    <string name="fiction">Fiction</string>
+    <string name="scifi">Science-fiction</string>
+    <string name="fantasy">Fantasy</string>
+    <string name="nonfiction">Non-fiction</string>
+    <string name="bookInfo">Book: </string>
+    <string name="Release">Release: </string>
+    <string name="Author">Author: </string>
+    <string name="Genre">Genre: </string>
+    <string name="newBook">New book</string>
+    <string name="Series">Book series: </string>
+    <string name="note">Notes: </string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="success">Success</string>
+    <string name="errorBook">You must enter book name</string>
+    <string name="audibleLink">Audible</string>
+    <string name="goodreadsLink">Goodreads</string>
+
+
+</resources>

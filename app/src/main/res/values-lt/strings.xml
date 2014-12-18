@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Knygų atmintukė</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="read">Perskaitytos knygos</string>
+    <string name="reading">Skaitomos knygos</string>
+    <string name="upcoming">Artėjančios knygos</string>
+    <string name="wishlist">Norimos knygos</string>
+    <string name="fiction">Romanas</string>
+    <string name="scifi">Mokslinė fantastika</string>
+    <string name="fantasy">Fantastika</string>
+    <string name="nonfiction">Ne grožinė literatūra</string>
+    <string name="bookInfo">Knyga: </string>
+    <string name="Release">Išleista: </string>
+    <string name="Author">Autorius: </string>
+    <string name="Genre">Žantras: </string>
+    <string name="newBook">Nauja knyga</string>
+    <string name="Series">Knygų serija</string>
+    <string name="note">Užrašai: </string>
+    <string name="confirm">Patvirtinti</string>
+    <string name="delete">Ištrinti</string>
+    <string name="success">Operacija įvykdyta</string>
+    <string name="errorBook">Privaloe įvesti knygos pavadinimą</string>
+
+
+</resources>
