@@ -30,14 +30,18 @@ public class CustomAdapter extends ArrayAdapter<bookKeeper.Book>{
 
         bookKeeper.Book book = super.getItem(position);
         holder.bookName.setText(book.getBookName());
-        name.setLength(0);
-        name.append("(");
-//        name.append(book.getSeries().getSeriesName());
-        name.append(")");
-        holder.seriesName.setText(name.toString());
+        if (book.getSeries() != null) {
+            name.setLength(0);
+            name.append("(");
+            name.append(book.getSeries().getSeriesName());
+            name.append(")");
+            holder.seriesName.setText(name.toString());
+        } else {
+            holder.seriesName.setText("");
+        }
         holder.date.setText(book.getReleaseDate());
         holder.author.setText(book.getAuthor());
-      //  holder.genre.setText(book.getGenre().getGenreName());
+        holder.genre.setText(book.getGenre().getGenreName());
 
         return row;
     }

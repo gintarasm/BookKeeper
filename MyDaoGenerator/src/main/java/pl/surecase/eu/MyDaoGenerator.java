@@ -20,7 +20,7 @@ public class MyDaoGenerator {
         book.addStringProperty("type");
 
         Entity series = schema.addEntity("Series");
-        series.addIdProperty();
+        series.addIdProperty().autoincrement();
         series.addStringProperty("seriesName").notNull();
 
         Entity bookType = schema.addEntity("BookType");

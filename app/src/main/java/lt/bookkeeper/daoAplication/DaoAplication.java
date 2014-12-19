@@ -25,6 +25,7 @@ public class DaoAplication extends Application {
         SQLiteDatabase db = helper.getWritableDatabase();
         DaoMaster daoMaster = new DaoMaster(db);
         daoSession = daoMaster.newSession();
+        initGenres();
     }
     private void initBookTypes() {
         BookType bt = new BookType();
@@ -53,7 +54,7 @@ public class DaoAplication extends Application {
         gn.setGenreName("Fiction");
         daoSession.getGenreDao().insertOrReplace(gn);
 
-         gn = new Genre();
+        gn = new Genre();
         gn.setId(2L);
         gn.setGenreName("Science fiction");
         daoSession.getGenreDao().insertOrReplace(gn);

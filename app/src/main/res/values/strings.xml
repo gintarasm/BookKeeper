@@ -25,6 +25,9 @@
     <string name="errorBook">You must enter book name</string>
     <string name="audibleLink">Audible</string>
     <string name="goodreadsLink">Goodreads</string>
+    <string name="addSeriesTitle">New series</string>
+    <string name="showSeries">Book series</string>
+    <string name="addSeriesError">Series must have a name</string>
 
 
 </resources>

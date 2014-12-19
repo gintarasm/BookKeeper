@@ -104,4 +104,8 @@ public class Series {
         myDao.refresh(this);
     }
 
+    @Override
+    public String toString() {
+        return this.getSeriesName();
+    }
 }
